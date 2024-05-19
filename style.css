@@ -1,0 +1,114 @@
+:root {
+  --light-green: #9fe870;
+  --dark-green: #163300;
+}
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-weight: 900;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+/* .very-large-text {
+  font-size: 5rem !important;
+} */
+
+.section-4-heading h2 {
+  font-size: 4 rem;
+}
+.section-3 {
+  /* height: 600px; */
+  height: 400px;
+  margin-top: 200px;
+  border-radius: 50px;
+}
+.btn {
+  background-color: var(--light-green);
+  color: black;
+  font-weight: 600;
+  border: none;
+}
+.section-1-right {
+  border-radius: 30px;
+  box-shadow: -1px -1px 29px -14px;
+}
+.btn-light {
+  background-color: var(--bs-light);
+}
+.section-3 {
+  background-color: var(--dark-green);
+}
+.section-3 h1 {
+  color: var(--light-green);
+}
+
+.letter-spacing {
+  letter-spacing: -2px;
+}
+.section-2-card {
+  width: 270px;
+  border-radius: 30px;
+}
+.section-2-card div img {
+  width: 80px;
+}
+
+.light-green {
+  background-color: var(--light-green);
+}
+.dark-green {
+  background-color: var(--dark-green);
+}
+
+.text-color-light-green {
+  color: var(--light-green);
+}
+.text-color-dark-green {
+  color: var(--dark-green);
+}
+
+.btn :hover {
+  background-color: transparent;
+  color: transparent;
+}
+.btn:hover {
+  opacity: 5;
+}
+
+.bg-color-white {
+  background-color: #fff;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 440px) {
+  .section-3 {
+    margin-top: 150px;
+  }
+  .section-3 .section-3-img {
+    width: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .section-3 .section-3-img {
+    width: 250px;
+  }
+}
+@media (min-width: 0px) and (max-width: 375px) {
+  .section-3 .section-3-img {
+    width: 170px;
+  }
+}
+
+footer p {
+  text-decoration: underline;
+  font-size: 0.8rem;
+}

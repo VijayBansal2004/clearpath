@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClearPath - Money Remittance Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top fw-bold bg-color-white">
+        <div class="container">
+          <a class="navbar-brand fs-3" href="#home">ClearPath</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#personal"
+                  >Personal</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#business">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#platform">Platform</a>
+              </li>
+            </ul>
+            <div>
+              <span class="navbar-text me-3">
+                <button type="button" class="btn btn-light rounded-pill">
+                  Log in
+                </button>
+              </span>
+              <span class="navbar-text">
+                <button type="button" class="btn btn-success rounded-pill">
+                  Register
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <div
+        id="home"
+        class="section-1 d-flex flex-column justify-content-around my-5 pt-5 flex-lg-row align-items-center"
+      >
+        <div
+          class="section-1-left pb-5 pb-lg-0 d-flex flex-column align-items-center align-md-items-start justify-content-center gap-5 col-11 col-lg-5"
+        >
+          <div>
+            <h1
+              class="letter-spacing very-large-text fs-1 upper text-uppercase w-75 text-center m-auto"
+            >
+              Send Money Worldwide for Less
+            </h1>
+            <p class="fs-6 text-center fw-semibold fs-md-5">
+              Transfer your money ClearPathly. Save up to 3x on international
+              transfers across more than 50 currencies, with no hidden fees.
+            </p>
+          </div>
+          <div>
+            <img
+              class="hand-pointer pointer"
+              src="appStore.svg"
+              alt="appstore"
+            />
+
+            <img
+              class="hand-pointer pointer"
+              src="playstore.svg"
+              alt="playstore"
+            />
+          </div>
+        </div>
+        <div
+          class="section-1-right p-3 p-sm-5 col-12 fs-6 col-sm-12 col-md-8 col-lg-5"
+        >
+          <div>
+            <p>You send exactly</p>
+            <div
+              class="d-flex justify-content-between border border-3 p-3 align-items-center rounded fs-4 fw-bold"
+            >
+              <p>10,000</p>
+              <div class="d-flex gap-2">
+                <img src="india.svg" alt="india" class="w-25" />
+                <p>INR</p>
+              </div>
+            </div>
+          </div>
+          <div class="section-1-card p-3 d-flex flex-column gap-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="fw-bold">0 INR</p>
+              </div>
+              <div>
+                <p>Bank transfer fee</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="fw-bold">382.82 INR</p>
+              </div>
+              <div>
+                <p>Our fee</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="fw-bold">382.82 INR</p>
+              </div>
+              <div>
+                <p>Total fees</p>
+              </div>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="fw-bold">9,617.18 INR</p>
+              </div>
+              <div>
+                <p>Total amount we’ll convert</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div>
+                <p class="fw-bold">83.4948</p>
+              </div>
+              <div>
+                <p class="fw-bold">Guaranteed rate(23h)</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p>Recipient gets</p>
+            <div
+              class="d-flex justify-content-between border border-3 p-3 align-items-center rounded fs-4 fw-bold"
+            >
+              <p>115.16</p>
+              <div class="d-flex gap-2">
+                <img src="usa.svg" alt="usa" class="w-25" />
+                <p>USD</p>
+              </div>
+            </div>
+            <div class="my-4"><p>Should arrive by Thursday</p></div>
+            <div class="w-100">
+              <button type="button" class="btn btn-success rounded-pill w-100">
+                Send Money Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div id="personal" class="section-2 mb-5 my-5">
+        <div
+          class="d-flex gap-4 pb-5 mb-5 flex-column flex-md-row justify-content-center align-items-center"
+        >
+          <div
+            class="d-flex gap-4 col-11 col-md-5 justify-content-start justify-md-content-center justify-lg-content-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-bank"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z"
+              />
+            </svg>
+            <p class="fw-bold">
+              ClearPath is authorized by the Reserve Bank of India (RBI)
+            </p>
+          </div>
+          <div
+            class="d-flex gap-4 col-11 col-md-5 justify-content-start justify-md-content-center justify-lg-content-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-person-lock"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 5.996V14H3s-1 0-1-1 1-4 6-4q.845.002 1.544.107a4.5 4.5 0 0 0-.803.918A11 11 0 0 0 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664zM9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1"
+              />
+            </svg>
+            <p class="fw-bold">
+              We safeguard your information with stringent standards
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column justify-content-center align-items-center gap-5"
+        >
+          <div class="section-2-heading">
+            <h1
+              class="letter-spacing very-large-text fs-1 upper text-uppercase w-75 text-center m-auto"
+            >
+              For people going places
+            </h1>
+          </div>
+
+          <div
+            class="section-2-cards d-flex flex-wrap justify-content-center gap-4"
+          >
+            <div
+              class="section-2-card d-flex flex-column gap-5 px-3 py-4 justify-content-between col-md-8 light-green pointer"
+            >
+              <div>
+                <img class="rounded-pill" src="men-card.jpg" alt="Men" />
+              </div>
+              <div>
+                <p class="fs-5">
+                  "ClearPath has revolutionized simplicity and truly been a
+                  savior for expats."
+                </p>
+              </div>
+              <div class="text-center">
+                <button
+                  type="button"
+                  class="btn rounded-pill w-100 dark-green text-color-light-green"
+                >
+                  Watch Video
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="section-2-card d-flex flex-column gap-5 px-3 py-4 justify-content-between dark-green text-color-light-green pointer"
+            >
+              <div>
+                <img class="rounded-pill" src="uk.svg" alt="UK" />
+              </div>
+              <div>
+                <p class="fs-5">
+                  “I use ClearPath to pay a mortgage in a different country each
+                  month. Superb. That simple.”
+                </p>
+              </div>
+              <div class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-success rounded-pill w-100"
+                >
+                  Gerald on Trustpilot
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="section-2-card d-flex flex-column gap-5 px-3 py-4 justify-content-between light-green pointer"
+            >
+              <div>
+                <img class="rounded-pill" src="usa.svg" alt="USA" />
+              </div>
+              <div>
+                <p class="fs-5">
+                  "ClearPath is the ultimate travel companion for money! It
+                  instantly simplifies financial matters."
+                </p>
+              </div>
+              <div class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-success rounded-pill w-100 dark-green text-color-light-green"
+                >
+                  Gemma on Trustpilot
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="section-2-card d-flex flex-column gap-5 px-3 py-4 justify-content-between dark-green text-color-light-green pointer"
+            >
+              <div>
+                <img class="rounded-pill" src="denmark.svg" alt="Denmark" />
+              </div>
+              <div>
+                <p class="fs-5">
+                  "ClearPath has been a game-changer for me as a student living
+                  abroad."
+                </p>
+              </div>
+              <div class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-success rounded-pill w-100"
+                >
+                  Stefani on Trustpilot
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="business"
+        class="section-3 d-flex justify-content-end pb-5 mb-5 align-items-center flex-column gap-3 position-relative p-2 p-lg-5"
+      >
+        <div
+          class="section-3-img position-absolute top-0 start-50 translate-middle"
+        >
+          <img class="w-100" src="earth.webp" alt="Earth" />
+        </div>
+        <div
+          class="section-3-heading d-flex justify-content-center align-items-center flex-column text-center"
+        >
+          <h1
+            class="letter-spacing very-large-text fs-1 upper text-uppercase w-75 text-center m-auto"
+          >
+            Meet money without borders
+          </h1>
+          <p class="text-white fw-bold">
+            We're creating the best way to transfer and manage global funds.
+            Minimal fees. Maximum convenience. Full speed.
+          </p>
+        </div>
+        <div>
+          <button type="button" class="btn btn-success rounded-pill w-100">
+            Learn about our mission
+          </button>
+        </div>
+      </div>
+
+      <hr />
+
+      <div
+        id="platform"
+        class="section-4 d-flex justify-content-around my-5 align-items-center flex-column-reverse flex-md-row"
+      >
+        <div
+          class="section-4-heading col-11 col-md-6 col-lg-5 d-flex justify-content-center align-items-start flex-column gap-5"
+        >
+          <div>
+            <h2 class="fw-bolder fs-1">Disappoint thieves</h2>
+            <p>
+              Each quarter, our customers entrust us with transferring over £30
+              billion. Here are some key ways we ensure their protection.
+            </p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-success rounded-pill">
+              How we keep your money safe
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="section-4-img col-11 col-md-6 col-lg-5 d-flex justify-content-center align-items-center mb-5 mb-lg-0"
+        >
+          <img class="w-75 w-lg-100" src="lock.webp" alt="lock" class="w-50" />
+        </div>
+      </div>
+
+      <div class="section-5">
+        <div
+          class="d-flex gap-4 pb-5 mb-5 flex-column flex-md-row justify-content-center align-items-center"
+        >
+          <div
+            class="d-flex gap-4 col-11 col-md-4 justify-content-start justify-md-content-center justify-lg-content-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-lock-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"
+              />
+            </svg>
+            <p class="fw-bold">
+              Our dedicated fraud and security teams are committed to keeping
+              your money safe.
+            </p>
+          </div>
+
+          <div
+            class="d-flex gap-4 col-11 col-md-4 justify-content-start justify-md-content-center justify-lg-content-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-person-lock"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 5.996V14H3s-1 0-1-1 1-4 6-4q.845.002 1.544.107a4.5 4.5 0 0 0-.803.918A11 11 0 0 0 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664zM9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1"
+              />
+            </svg>
+            <p class="fw-bold">
+              We use two-factor authentication to secure your account.
+            </p>
+          </div>
+
+          <div
+            class="d-flex gap-4 col-11 col-md-4 justify-content-start justify-md-content-center justify-lg-content-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-bank"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.5.5 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89zM3.777 3h8.447L8 1zM2 6v7h1V6zm2 0v7h2.5V6zm3.5 0v7h1V6zm2 0v7H12V6zM13 6v7h1V6zm2-1V4H1v1zm-.39 9H1.39l-.25 1h13.72z"
+              />
+            </svg>
+            <p class="fw-bold">
+              We store your funds with reputable financial institutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-body-tertiary py-5">
+      <div
+        class="mb-5 upper-footer d-flex justify-content-center align-md-items-start justify-md-content-around bg-body-tertiary gap-4 flex-column flex-md-row w-50 mx-auto col-6 col-md-12 gap-md-1"
+      >
+        <div class="text-center col-md-4">
+          <h6 class="fw-bold">Company and team</h6>
+          <p class="pointer">Service status</p>
+          <p class="pointer">Press</p>
+          <p class="pointer">Careers</p>
+          <p class="pointer">Investor relations</p>
+          <p class="pointer">Company and team</p>
+        </div>
+
+        <div class="text-center col-md-4">
+          <h6 class="fw-bold">ClearPath Products</h6>
+          <p class="pointer">ClearPath account</p>
+          <p class="pointer">Large amount transfer</p>
+          <p class="pointer">International debit card</p>
+          <p class="pointer">International money transfer</p>
+          <p class="pointer">Receive money</p>
+        </div>
+
+        <div class="text-center col-md-4">
+          <h6 class="fw-bold">Resources</h6>
+          <p class="pointer">Research privacy policy</p>
+          <p class="pointer">International stock ticker</p>
+          <p class="pointer">Currency converter</p>
+          <p class="pointer">News and blog</p>
+          <p class="pointer">Swift/BIC codes</p>
+        </div>
+
+        <div class="social-media-handles text-center col-md-4">
+          <h6 class="fw-bold">Follow us</h6>
+          <div class="d-flex gap-3 justify-content-center align-items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-facebook pointer"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-twitter-x pointer"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-instagram pointer"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="lower-footer">
+        <div
+          class="d-flex justify-content-around flex-column align-items-center flex-md-row align-md-items-start gap-3 m-auto col-12 col-md-9 my-5"
+        >
+          <div>
+            <h1 class="text-center text-md-start">ClearPath</h1>
+          </div>
+          <div>
+            <p class="pointer text-center text-md-start">Complaints</p>
+            <p class="pointer text-center text-md-start">Legal</p>
+          </div>
+          <div>
+            <p class="pointer text-center text-md-start">Country site map</p>
+            <p class="pointer text-center text-md-start">Privacy policy</p>
+          </div>
+          <div>
+            <p class="pointer text-center text-md-start">Cookie Policy</p>
+            <p class="pointer text-center text-md-start">
+              Modern slavery statement
+            </p>
+          </div>
+        </div>
+        <div>
+          <p class="text-center text-decoration-none">&copy; ClearPath 2024</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
