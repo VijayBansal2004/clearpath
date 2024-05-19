@@ -96,6 +96,9 @@ p {
   .section-3 .section-3-img {
     width: 300px;
   }
+  .small-text {
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 375px) {
   .section-3 .section-3-img {
