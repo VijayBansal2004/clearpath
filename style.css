@@ -7,6 +7,10 @@
   font-optical-sizing: auto;
   scroll-behavior: smooth;
 }
+.max-width {
+  max-width: 1296px;
+  margin: auto;
+}
 h1 {
   font-weight: 900;
 }
